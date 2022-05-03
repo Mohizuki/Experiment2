@@ -168,21 +168,21 @@ h3{
 	}
 }
 
-/*------- footer -------*/
-.footer{
+/*------- bawahcon -------*/
+.bawahcon{
 	width: 80%;
 	margin: auto;
 	text-align: center;
 	padding-top: 50px;
 }
-.footer-col{
+.bawahcon-col{
 	flex-basis: 32%;
 	border-radius: 10px;
 	margin-bottom: 30px;
 	position: relative;
 	overflow: hidden;
 }
-.footer-col img{
+.bawahcon-col img{
 	width: 100%;
 	display: block;
 }
@@ -226,4 +226,78 @@ h3{
 .layer:hover h3{
 	bottom: 80%;
 	opacity: 1;
+}
+
+/*----- bawahlagi -----*/
+.bawahlagi{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 100px;
+}
+.bawahlagi-col{
+	flex-basis: 31%;
+	border-radius: 10px;
+	margin-bottom: 5%;
+	text-align: left;
+}
+.bawahlagi-col img{
+	width: 100%;
+	border-radius: 10px;
+}
+.bawahlagi-col p{
+	padding: 0;
+}
+.bawahlagi-col h3{
+	margin-top: 16px;
+	margin-bottom: 15px;
+	text-align: left;
+}
+
+/* about us promote */
+.promoteabout{
+	margin: 100px auto;
+	width: 80%;
+	background-image: linear-gradient(to right, #64b3f4, transparent 40%, #EE3268, transparent 160%), url("images/background2.png");
+	background-position: center;
+	background-size: cover;
+	border-radius: 10px;
+	text-align: center;
+	padding: 100px 0;
+}
+
+.promoteabout h1{
+	text-shadow: 1px 1px 2px #fff; 
+	color: #fff;
+	margin-bottom: 40px;
+	padding: 0;
+}
+
+@media(max-width: 700px){
+	.promoteabout h1{
+		font-size: 24px;
+	}
+}
+
+/* footer */
+
+.footer{
+	width 100%;
+	text-align: center;
+	padding: 30px 0;
+}
+
+.footer h4{
+	margin-bottom: 25px;
+	margin-top: 20px;
+	font-weight: 600;
+}
+.icons .fa{
+	color: #64b3f4;
+	margin: 0 6px;
+	cursor: pointer;
+	padding: 18px 0;
+}
+.fa-heart-o{
+	color: red;
 }
