@@ -18,6 +18,7 @@ header {
 	width: 50%;
 	padding: 40px 30px 5px 5px;
 }
+
 .headerleft img{
 	width: 28%;
 	height: 28%;
@@ -33,6 +34,7 @@ header {
 	opacity: 0.6;
 	transition: opacity 1.1s;
 }
+
 .headermenu {
 	width: 40%;
 	text-align: right;
@@ -72,9 +74,11 @@ header {
 .headermenu ul li:hover::after{
 	width: 100%;
 }
+
 .headerright{
 	padding-right: 20px;
 }
+
 .search-bar{
 	width: 100%;
 	max-width: 200px;
@@ -94,9 +98,11 @@ header {
 	font-size: 12px;
 	color: #fff;
 }
+
 .login{
 	padding: 20px;
 }
+
 .login img{
 	width: 40px;
 	color: #fff;
