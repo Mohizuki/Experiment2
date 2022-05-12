@@ -457,12 +457,13 @@ h3{
 	width:80%;
 	align-content: center;
 	display: block;
+	border-radius: 40px;
 }
 .con1 {
-	
 	width:80%;
 	position: right;
 	display: block;
+	border-radius: 40px;
 }
 .bawahcon1-col img{
 	width:80%;
@@ -481,11 +482,12 @@ h3{
 	position: absolute;
 	top: 0;
 	left: 0;
-	background-image: transparent(45deg, blue, aqua);
+	background-image: transparent;
   	z-index: 2;
 }
 
 .layer2::before {
+	border-radius: 40px;
 	padding: 0 20px 0 120px;
 	position: absolute;
   	content: "";
@@ -504,4 +506,23 @@ h3{
 	padding: 0 20px 0 120px;
   	opacity: 0.8;
 	box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+/* social media  */
+.sosmed{
+	flex: 1;
+}
+.sosicon{
+	position: relative;
+	overflow: hidden;
+	text-align: left;
+	padding: 0 20px 0 220px;
+}
+.sosicon a{
+	font-size: 30px;
+}
+.sosicon2{
+	position: relative;
+	overflow: hidden;
+	text-align: right;
+	padding: 0 20px 0 220px;
 }
