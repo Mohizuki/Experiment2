@@ -444,6 +444,16 @@ h3{
 }
 
 /* contact about us */
+/* referensi */
+.referensi{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 50px;
+}
+
+
+/* Contributor */
 .bawahcon2-col{
 	flex-basis: 40%;
 	border-radius: 10px;
@@ -484,6 +494,7 @@ h3{
 	left: 0;
 	background-image: transparent;
   	z-index: 2;
+	background-image: linear-gradient(to bottom, transparent 60%, #fff);
 }
 
 .layer2::before {
@@ -503,26 +514,34 @@ h3{
 }
 
 .layer2:hover::before {
-	padding: 0 20px 0 120px;
+	padding: 0 20px 0 20px;
   	opacity: 0.8;
 	box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 }
 /* social media  */
 .sosmed{
-	flex: 1;
+	display: flex;
+	justify-content: space-between;
 }
 .sosicon{
+	flex-basis: 50%;
+	padding: 0 20px 0 220px;
 	position: relative;
 	overflow: hidden;
-	text-align: left;
-	padding: 0 20px 0 220px;
+	box-sizing: border-box;
 }
 .sosicon a{
 	font-size: 30px;
+	color: black;
 }
 .sosicon2{
+	flex-basis: 50%;
+	padding: 0 220px 0 20px;
 	position: relative;
 	overflow: hidden;
-	text-align: right;
-	padding: 0 20px 0 220px;
+	box-sizing: border-box;
+}
+.sosicon2 a{
+	font-size: 30px;
+	color: black;
 }
