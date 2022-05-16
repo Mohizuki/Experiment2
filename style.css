@@ -465,10 +465,11 @@ p{
 	padding: 10px;
 }
 
-.row{
+.rowgenre{
 	margin-top:3%;
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 .course-col{
@@ -481,12 +482,13 @@ p{
 	overflow: hidden;
 	box-sizing: border-box;
 	transition: 0.5s;
+	
 }
 
-.course img{
+.imagegenre img{
 	width: 100%;
-	display: block;
-	border-radius: 20px;
+	border-radius: 30px;
+	height: 53%;
 }
 
 .course-col:hover{
@@ -553,7 +555,6 @@ p{
 	position: absolute;
 	top: 0;
 	left: 0;
-	background-image: transparent;
   	z-index: 2;
 	background-image: linear-gradient(to bottom, transparent 60%, #fff);
 }
