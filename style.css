@@ -504,12 +504,121 @@ p{
  	transform: translate(-50%, -50%);
 	text-shadow: 0px 0px 5px white;
 }
+/* crud button */
+
+.crudbutton{
+	padding: 10px;
+	text-align: right;
+	margin-bottom: 50px;
+}
+
+.create {
+	appearance: none;
+	background-color: #2ea44f;
+	border: 1px solid rgba(27, 31, 35, .15);
+	border-radius: 6px;
+	box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+	box-sizing: border-box;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 20px;
+	padding: 6px 16px;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+
+.create:focus:not(:focus-visible):not(.focus-visible) {
+	box-shadow: none;
+	outline: none;
+}
+
+.create:hover {
+	background-color: #2c974b;
+}
+
+.create:focus {
+	box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+	outline: none;
+}
+
+.create:disabled {
+	background-color: #94d3a2;
+	border-color: rgba(27, 31, 35, .1);
+	color: rgba(255, 255, 255, .8);
+	cursor: default;
+}
+
+.create:active {
+	background-color: #298e46;
+	box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+
+.remove {
+	appearance: none;
+	background-color: #bf0a10;
+	border: 1px solid rgba(27, 31, 35, .15);
+	border-radius: 6px;
+	box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+	box-sizing: border-box;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 20px;
+	padding: 6px 16px;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+
+.remove:focus:not(:focus-visible):not(.focus-visible) {
+	box-shadow: none;
+	outline: none;
+}
+
+.remove:hover {
+	background-color: #bf0a10;
+}
+
+.remove:focus {
+	box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+	outline: none;
+}
+
+.remove:disabled {
+	background-color: #ff171f;
+	border-color: rgba(27, 31, 35, .1);
+	color: rgba(255, 255, 255, .8);
+	cursor: default;
+}
+
+.create:active {
+	background-color: #bf0a10;
+	box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
 
 /* novel */
 .novelsec{
 	width: 70%;
 	margin:auto;
-	padding-top: 100px;
+	margin-top: 100px;
 }
 .novellist{
 	border-image: linear-gradient(98deg, gray, white) 1;
@@ -517,19 +626,20 @@ p{
 	border-style: solid;
 	border-radius: 1em;
 	display: flex;
+	margin-top: 40px;
 }
 .gamnov img{
 	width: 300px;
 }
 .detnov{
 	padding-left: 20px;
+	width: 700px;
 }
 .judnov {
 	padding-top: 20px;
 	padding-left: 20px;
 }
 .judnov h1{
-	padding: 0 230px;
 	text-align: center;
 }
 .gennov {
@@ -555,6 +665,43 @@ p{
 }
 .descnov h3{
 	
+}
+.delbutdiv {
+	width: 7%;
+	text-align: right;
+	padding: 10px;
+}
+.delbutap {
+	background-color: #EA4C89;
+	border-radius: 8px;
+	border-style: none;
+	box-sizing: border-box;
+	color: #FFFFFF;
+	cursor: pointer;
+	display: inline-block;
+	font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+	height: 40px;
+	line-height: 20px;
+	list-style: none;
+	margin: 0;
+	outline: none;
+	padding: 10px 16px;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	transition: color 100ms;
+	vertical-align: baseline;
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+}
+
+.delbutap:hover,
+.delbutap:focus {
+	background-color: #F082AC;
+}
 }
 
 
