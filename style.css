@@ -594,7 +594,7 @@ p{
 }
 
 .remove:hover {
-	background-color: #bf0a10;
+	background-color: #a81e16;
 }
 
 .remove:focus {
@@ -609,7 +609,7 @@ p{
 	cursor: default;
 }
 
-.create:active {
+.remove:active {
 	background-color: #bf0a10;
 	box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
 }
@@ -671,6 +671,7 @@ p{
 	text-align: right;
 	padding: 10px;
 }
+
 .delbutap {
 	background-color: #EA4C89;
 	border-radius: 8px;
@@ -678,7 +679,6 @@ p{
 	box-sizing: border-box;
 	color: #FFFFFF;
 	cursor: pointer;
-	display: inline-block;
 	font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 14px;
 	font-weight: 500;

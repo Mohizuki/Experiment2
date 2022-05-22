@@ -58,7 +58,7 @@
 <section class="novelsec">
 	<div class="crudbutton">
 	<button class="create">Create</button>
-	<button class="remove">Remove</button>
+	<button class="remove" onclick="deleteFunction()">Remove</button>
 	</div>
 	<div class="novellist">
 		<div class="gamnov">
@@ -136,12 +136,28 @@
 </section>
 <!------JavaScript for Toggle Menu----->
 <script>
-	var navLinks = document.getElementById("navLinks");
 	function showMenu(){
+		var navLinks = document.getElementById("navLinks");
 		navLinks.style.right = "0";
 	}
 	function hideMenu(){
+		var navLinks = document.getElementById("navLinks");
 		navLinks.style.right = "-155px";
+	}
+	
+	let userSection = document.querySelectorAll(".delbutdiv")
+	let isShow = true
+	function deleteFunction(){
+		for (var i = 0; i < userSection.length; i++) {
+			if (isShow === true) {
+				userSection[i].style.display = "none";
+				isShow = false;
+			}
+			else {
+				userSection[i].style.display = "block";
+				isShow = true;
+			}
+		}
 	}
 </script>
 

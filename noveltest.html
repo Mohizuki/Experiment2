@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>Crunchii Novel</title>
+	<link rel="shortcut icon" type="image/icon" href="images/crunchiitopicon.ico" />
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+	<header>
+	</header>
+	
+
+<!---- list novel ----->
+<section class="novelsec">
+	<button class="create">Create</button>
+	<button class="remove" onclick="deleteFunction()">Remove</button>
+	</div>
+	<div class="novellist">
+		<div class="gamnov">
+			<img src="images/cover2.jpg" alt="">
+		</div>
+		<div class="detnov">
+			<div class="judnov">
+				<h1>Suka-Suka</h1>
+			</div>
+			<div class="gennov">
+				<h2>Action</h2>
+				<h2>Fantasy</h2>
+			</div>
+			<div class="descnov">
+				<h3>Suka-Suka merupakan........</h3>
+			</div>
+		</div>
+		<div class="delbutdiv">
+			<button class="delbutap">Delete</button>
+		</div>
+	</div>
+</section>	
+	
+<!------JavaScript for Toggle Menu----->
+<script>
+	function showMenu(){
+		var navLinks = document.getElementById("navLinks");
+		navLinks.style.right = "0";
+	}
+	function hideMenu(){
+		var navLinks = document.getElementById("navLinks");
+		navLinks.style.right = "-155px";
+	}
+	let userSection = document.querySelector(".delbutdiv")
+	let isShow = true;
+	function deleteFunction(){
+		if (isShow) {
+			userSection.style.display = "none";
+			isShow = false;
+		}
+		else {
+			userSection
+			userSection.style.display = "block";
+			isShow = true;
+		}
+	}
+</script>
+
+</body>
+</html>
